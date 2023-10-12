@@ -1,0 +1,144 @@
+body {
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+a {
+  text-decoration: none;
+  color: #5e5e5e;
+}
+img {
+  display: block;
+}
+
+
+/* Inner */
+.inner {
+  max-width: 969px;
+  margin: 0 auto;
+  padding: 0 10;
+  position: relative;
+}
+
+/* Header */
+header {
+  height: 60px;
+  background-color: #D9D9D9;
+}
+header .inner {
+
+}
+header .download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 60px;
+}
+header .download span {
+
+}
+header .download a  {
+ 
+}
+header .download a:hover  {
+  text-decoration: underline;
+}
+/* Badges */
+header .badges {
+  position: absolute;
+  top: 400px;
+  right: 5px;
+}
+header .badges .badge {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, .15);
+  cursor: pointer;
+}
+/* Menu */
+.menu {
+  background-color: #f2f2f2;
+}
+
+.menu ul.main-menu {
+  display: flex;
+  justify-content: flex-start;
+  height: 40px;
+  gap: 15px;
+}
+.menu ul.main-menu li {
+  display: flex;
+  cursor: pointer;
+  position: relative;
+}
+.menu ul.main-menu li a {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 13px;
+  color: #5e5e5e;
+  opacity: .8;  
+}
+.menu ul.main-menu li.logo a {
+  background-image: url("../images/logo.png");
+  width: 30px;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.menu ul.main-menu li a:hover {
+  opacity: 1;
+}
+
+/* introduce */
+.introduce {
+  background-color: #f2f2f2;
+  height: 560px;
+}
+.introduce h1 {
+  width: 875px;
+  height: 220px;
+  position: absolute;
+  top: 150px;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+}
+
+/* values */
+.values {
+
+}
+.values .title {
+  left: 200px;
+}
+.values .title h2 {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 80px;
+}
+.values .title p {
+  margin-top: 15px;
+  text-align: center;
+}
+.values .figures {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  padding-bottom: 90px;
+  position: absolute;
+  left: 50px;
+}
+.values .figures img {
+  border-radius: 50%;
+  
+}
+.values .figures figcaption {
+  margin-top: 20px;
+}
