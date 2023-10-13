@@ -1,0 +1,185 @@
+body {
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+a {
+  text-decoration: none;
+  color: #5e5e5e;
+}
+img {
+  display: block;
+}
+
+
+/* Inner */
+.inner {
+  max-width: 969px;
+  margin: 0 auto;
+  padding: 0 10;
+  position: relative;
+}
+
+/* Header */
+header {
+  height: 60px;
+  background-color: #D9D9D9;
+}
+header .inner {
+
+}
+header .download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 60px;
+}
+header .download span {
+
+}
+header .download a  {
+ 
+}
+header .download a:hover  {
+  text-decoration: underline;
+}
+/* Badges */
+/* header .badges {
+  position: absolute;
+  top: 400px;
+  right: 5px;
+}
+header .badges .badge {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, .15);
+  cursor: pointer;
+} */
+/* Menu */
+.menu {
+}
+
+.menu ul.main-menu {
+  display: flex;
+  justify-content: flex-start;
+  height: 40px;
+  gap: 15px;
+}
+.menu ul.main-menu li {
+  display: flex;
+  cursor: pointer;
+  position: relative;
+}
+.menu ul.main-menu li a {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 13px;
+  color: #5e5e5e;
+  opacity: .8;  
+}
+.menu ul.main-menu li.logo a {
+  background-image: url("../images/logo.png");
+  width: 30px;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.menu ul.main-menu li a:hover {
+  opacity: 1;
+}
+
+.contact {
+  box-sizing: border-box;
+  margin-top: 8.125rem;
+}
+.contact .container .banner {
+  text-align: center;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+.contact .container .banner h2 {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.contact .container .banner p {
+  margin-top: 0.625rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+.contact .container .content {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 1.25rem;
+  display: block;
+}
+.contact .container .content fieldset  {
+  margin: 1.875rem auto 0;
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+}
+.contact .container .field-list {
+  padding: 2.25rem;
+  border: 0.0625rem solid #e6e8ed;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 1.25rem 0 rgba(0,0,0, .06);
+}
+.contact .field {
+  margin-top: 1.5rem;
+  color: #202225;
+  display: flex;
+}
+.contact .field > label {
+  width: 14.625rem;
+  margin-top: 0.75;
+  font-weight: 500; 
+}
+.contact .field > label+* {
+  flex: 1 1;
+}
+.contact .field .rs-input {
+  width: 100%;
+  padding-bottom: 0.0625rem;
+  border: 0.0625rem solid #e6e8ed;
+  border-radius: 0.25rem;
+}
+.contact .field textarea {
+  width: 100%;
+  height: 11.625rem;
+  resize: none;
+  box-sizing: border-box;
+  outline: 0;
+  display: block;
+  border: 0.0625rem solid #e6e8ed;
+  border-radius: 0.25rem;
+}
+.contact .rs-button {
+  margin: 2.5rem auto 0;
+  padding: 1.25rem 4.45rem;
+  border: 0.0625rem solid #0067ff;
+  background-color: #0067ff;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  opacity: .7;
+}
+.contact .rs-button:hover {
+  opacity: 1;
+}
